@@ -32,6 +32,11 @@ $ pipenv shell
 ```
 
 ```
+# for python 3
+$ pipenv shell --python 3
+```
+
+```
 $ python -m flask run
 ```
 ```
@@ -59,21 +64,27 @@ Update /etc/apache2/sites-available/000-default.conf
     ProxyPassReverse / http://127.0.0.1:5000/
 </VirtualHost>
 ```
-Restart apache2.
+```
+$ sudo a2enmod proxy
+$ sudo a2enmod proxy_http
+$ sudo systemctl restart apache2
+```
 
 Now, try to access http://helloworld.priv
 
-Tutorial: [2](https://www.digitalocean.com/community/tutorials/how-to-use-apache-as-a-reverse-proxy-with-mod_proxy-on-ubuntu-16-04)
-
-Additionally, if you want to proxy reverse via `<server path>`:
+Additionally, if you want to proxy reverse via `URL path`:
 ```
 <VirtualHost *:80>
     ProxyPreservehost On
 
-    ServerName localhost
-    
+    #ServerName localhost
+    #ServerName hello-world.duckdns.org
+
     ProxyPass /web1 http://127.0.0.1:5000/
     ProxyPassReverse /web1 http://127.0.0.1:5000/
 </VirtualHost>
 ```
-Try accessing http://localhost/web1, it will proxy reverse to http://127.0.0.1:5000/
+Try accessing http://localhost/web1 OR http://hello-world.duckdns.org it will proxy reverse to http://127.0.0.1:5000/
+
+# References
+[`[1] https://www.digitalocean.com/...proxy-on-ubuntu-16-04`](https://www.digitalocean.com/community/tutorials/how-to-use-apache-as-a-reverse-proxy-with-mod_proxy-on-ubuntu-16-04)
