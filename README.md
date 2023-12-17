@@ -1,5 +1,8 @@
 # www.amaharjan.de
 
+## Organize markdown with Python
+- Step-by-step guide to organizing your markdown files and compiling them into a single README.md using Python. [Read more](organize-markdown-with-python/README.md)
+
 ## Reverse proxy
 - This project demonstrates reverse proxy using Django, Flask and Linux. [Read more](reverse-proxy/README.md)
 
