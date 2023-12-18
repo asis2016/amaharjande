@@ -1,4 +1,4 @@
-# Cloud concepts
+# A short note on Cloud computing
 
 ## What is cloud computing?
 
