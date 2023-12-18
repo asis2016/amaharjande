@@ -1,5 +1,8 @@
 # www.amaharjan.de
 
+## A short note on Cloud computing
+- [Read this article](cloud-concepts/README.md)
+
 ## Organize markdown with Python
 - Step-by-step guide to organizing your markdown files and compiling them into a single README.md using Python. [Read more](organize-markdown-with-python/README.md)
 
