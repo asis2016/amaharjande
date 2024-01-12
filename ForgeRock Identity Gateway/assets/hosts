@@ -1,0 +1,7 @@
+#This file is located as /etc/hosts
+
+127.0.0.1    localhost
+127.0.0.1    ig.amaharjan.priv #For ForgeRock Identity Gateway
+
+#For ForgeRock Access Management, use port 18080 and 18443
+127.0.0.1    am.amaharjan.priv 
