@@ -7,9 +7,12 @@
 - References
 
 ## Prerequisites
-- Linux knowledge
-- Knowledge on `vi`
-
+- Proficient knowledge on Linux (Ubuntu 20.04)
+- Knowledge on `vi` as editor
+- Knowledge on [Reverse proxy](https://amaharjan.de/reverse-proxy/)
+- Knowledge on [ForgeRock Access Management Essentials](https://www.forgerock.com/support/university/forgerock-university/forgerock-access-management-essentialss)
+- Knowledge on [ForgeRock Identity Gateway Essentials](https://www.forgerock.com/support/university/forgerock-university/forgerock-identity-gateway-essentials)
+- Basic knowledge on Apache Tomcat
 ## Setting up ForgeRock Identity Gateway
 
 
