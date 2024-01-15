@@ -4,17 +4,17 @@ After=network.target
 
 [Service]
 Type=forking
-User=amaharjande
+User=tux
 
 Environment="JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64"
 Environment="JAVA_OPTS=-Djava.security.egd=file:///dev/urandom"
-Environment="CATALINA_BASE=/home/amaharjande/opt/tomcat"
-Environment="CATALINA_HOME=/home/amaharjande/opt/tomcat"
-Environment="CATALINA_PID=/home/amaharjande/opt/tomcat/temp/tomcat.pid"
+Environment="CATALINA_BASE=/home/tux/opt/tomcat"
+Environment="CATALINA_HOME=/home/tux/opt/tomcat"
+Environment="CATALINA_PID=/home/tux/opt/tomcat/temp/tomcat.pid"
 Environment="CATALINA_OPTS=-Xmx2g -XX:MaxMetaspaceSize=256m"
 
-ExecStart=/home/amaharjande/opt/tomcat/bin/startup.sh
-ExecStop=/home/amaharjande/opt/tomcat/bin/shutdown.sh
+ExecStart=/home/tux/opt/tomcat/bin/startup.sh
+ExecStop=/home/tux/opt/tomcat/bin/shutdown.sh
 
 Restart=always
 RestartSec=10

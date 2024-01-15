@@ -1,2 +1,6 @@
 #This file is located as /etc/hosts
 
+127.0.0.1    localhost
+127.0.0.1    am.example.priv     #For AM, use port 8080
+127.0.0.1    ig.example.priv     #For IG, use port 19080
+
