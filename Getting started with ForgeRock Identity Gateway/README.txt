@@ -1,0 +1,1 @@
+This repository is part of a tutorial series titled as [Getting started with ForgeRock Identity Gateway]( https://amaharjan.de/getting-started-with-forgerock-identity-gateway/) and scheduled for Feb 18, 2024.
