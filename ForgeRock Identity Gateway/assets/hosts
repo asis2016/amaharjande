@@ -1,9 +1,0 @@
-#This file is located as /etc/hosts
-
-127.0.0.1    localhost
-
-#For ForgeRock Identity Gateway, use port 19080
-127.0.0.1    ig.example.priv
-
-#For ForgeRock Access Management, use port 8080 and 8443
-127.0.0.1    am.example.priv
