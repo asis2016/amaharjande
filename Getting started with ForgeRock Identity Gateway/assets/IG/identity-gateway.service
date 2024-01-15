@@ -1,0 +1,14 @@
+[Unit]
+Description=ForgeRock Identity Gateway
+After=network.target
+
+[Service]
+User=amaharjande
+ExecStart=/home/amaharjande/opt/forgerock/identity-gateway/bin/start.sh
+ExecStop=/home/amaharjande/opt/forgerock/identity-gateway/bin/stop.sh
+
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
