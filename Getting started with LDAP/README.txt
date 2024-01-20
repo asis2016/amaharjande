@@ -1,0 +1,1 @@
+This repository is part of a tutorial titled as [Getting started with LDAP](https://amaharjan.de/getting-started-with-ldap/) scheduled for Feb 21, 2024.

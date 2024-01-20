@@ -1,0 +1,6 @@
+dn: cn=jdoe,ou=people,dc=example,dc=com
+objectClass: inetOrgPerson
+sn: Doe
+givenName: Doe
+cn: jdoe
+userPassword: Password1
