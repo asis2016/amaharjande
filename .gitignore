@@ -1,3 +1,7 @@
 md_docs/*
+assets/*
 assetsx/*
 md_docsx/*
+
+active-directory-crash-course/assets/
+active-directory-crash-course/md_docs/
